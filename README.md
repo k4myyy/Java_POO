@@ -1,22 +1,20 @@
 # Java_POO
 
-Repositório criado para a primeira atividade de Programação Orientada a Objetos (POO) do curso de Sistemas para Internet.
+Repositório com as listas de exercícios de Programação Orientada a Objetos (POO) em Java, do curso de Sistemas para Internet.
 
-Nesta atividade foram trabalhados conceitos básicos de POO, como:
+## Lista 1
 
-- Classes
-- Objetos
-- Construtores
-- Atributos
-- Associação entre classes
-- `toString()`
+Conceitos básicos de POO: classes, objetos, construtores, atributos, associação entre classes e `toString()`.
 
-## Questões
+- **Questão 01 — Cadastro de Filmes:** classe `Filme` com título, gênero e ano de lançamento.
+- **Questão 02 — Livros e Autores:** classes `Livro` e `Autor`, trabalhando a associação entre elas.
 
-### Questão 01 — Cadastro de Filmes
+## Lista 2 — Zoológico
 
-Criação da classe `Filme` e de objetos com título, gênero e ano de lançamento.
+Sistema em Java, no terminal, para gerenciar um zoológico com Gatos, Cachorros e Pássaros.
 
-### Questão 02 — Livros e Autores
+Conceitos trabalhados: herança, polimorfismo, sobrescrita de métodos (`@Override`), `super`, `ArrayList` e menu com `Scanner`.
 
-Criação das classes `Livro` e `Autor`, trabalhando a associação entre elas.
+**Classes:** `Animal` (superclasse), `Gato`, `Cachorro`, `Passaro`, `Zoologico` e `Main`.
+
+**Funcionalidades:** adicionar, listar e remover animais, emitir o som e testar a habilidade de cada um. Não é permitido repetir o ID de um animal.
