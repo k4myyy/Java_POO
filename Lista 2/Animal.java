@@ -1,11 +1,12 @@
 import java.util.ArrayList; 
 
 public class Animal{
+
     private long id;
     private String nome;
     private int idade;
     private double peso;
-    ArrayList<String> habilidades = new ArrayList<>();
+    private ArrayList<String> habilidades;
 
     public Animal(long id, String nome, int idade, double peso){
         this.id = id;
@@ -16,18 +17,19 @@ public class Animal{
     }
 
     public String emitirSom() {
-        return "som desconhecido"
+        return "som desconhecido";
     }  
 
-    public String realizarHablidades(String habilidade) {
-        if(habilidades.contains(habilidade)){
-            return nome + "consegue" + habilidade;
-        } else {
-            return nome + "não cosegue" + habilidade;
+    public String realizarHabilidade(String habilidade) {
+        for (String h: habilidades) {
+            if (h.equalsIgnoreCase(habilidade)) {
+                return nome + " consegue " + habilidade;
+            }
         }
-    } 
+        return nome + " não consegue " + habilidade;     
+    }
 
-    public long gettId(){
+    public long getId(){
         return this.id;
     }
 

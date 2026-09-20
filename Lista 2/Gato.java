@@ -1,5 +1,6 @@
 public class Gato extends Animal {
-    public Gato(log id, String nome, int idade, double peso) {
+
+    public Gato(long id, String nome, int idade, double peso) {
         super(id, nome, idade, peso);
         this.getHabilidades().add("agilidade");
     }

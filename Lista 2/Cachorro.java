@@ -1,5 +1,6 @@
 public class Cachorro extends Animal {
-    public Cachorro(log id, String nome, int idade, double peso) {
+    
+    public Cachorro(long id, String nome, int idade, double peso) {
         super(id, nome, idade, peso);
         this.getHabilidades().add("farejar");
     }
